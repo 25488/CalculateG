@@ -1,0 +1,58 @@
+header{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.4)), url(../../../../../Data/content/posts/blog/image/blog.jpg);
+	height: 10vh;
+	background-size: cover;
+	background-position: center;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin: 25px;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+#fixed{
+	position: fixed;
+}
+
+#blog{
+	background: #f7f7f7;
+	color: #000000;
+	width: 900px;
+	font-size: 25px;
+	margin: 0 auto;
+	border: 5px solid #f7f7f7;
+	box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+}
+
+body{
+background-color: #808080;	
+}
